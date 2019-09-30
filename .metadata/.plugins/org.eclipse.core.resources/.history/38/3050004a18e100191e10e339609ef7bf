@@ -1,0 +1,26 @@
+package com.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionInterfaceDemo {
+	public static void main(String args[]) {
+		List <String> list = new ArrayList();	
+		list.add("A");
+		list.add("B");
+		list.add("C");
+		
+		List <String> list2 = new ArrayList();
+		
+		list2.add("D");
+		list2.add("E");
+		list2.add("F");
+		
+		list.addAll(list2);
+		
+		list.remove(4);
+		list.removeAll(list2);
+		
+		System.out.println(list);
+	}
+}

@@ -1,0 +1,18 @@
+INDEX VERSION 1.130+/home/josh/Scratchpad/Workspaces/CollectionsFramework/.metadata/.plugins/org.eclipse.jdt.core
+523062171.index
+1883997511.index
+41079392.index
+2745102487.index
+3839974693.index
+1241618400.index
+1844285943.index
+2128533263.index
+2617625728.index
+2636157370.index
+3026001949.index
+2501189069.index
+3812498301.index
+693283897.index
+644421063.index
+948150552.index
+2892154250.index
