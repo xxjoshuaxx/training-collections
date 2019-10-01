@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.TreeSet;
 
-public class CollectionInterfaceDemo {
+public class CollectionInterface {
 	public static void main(String args[]) {
 		//Initializing the ArrayList using add()
 		List <String> list = new ArrayList();	
