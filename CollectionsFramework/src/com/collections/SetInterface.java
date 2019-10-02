@@ -9,9 +9,10 @@ import java.util.TreeSet;
 public class SetInterface {
 	public static void main(String args[]) {
 		Set <String> set = new TreeSet();
-		set.add("A");
-		set.add("A");
-		
+		Boolean a = set.add("A");
+		System.out.println("Success Adding A " + a);
+		a = set.add("A");
+		System.out.println("Success Adding A again " + a);
 		System.out.print(set);
 	}
 }
