@@ -28,5 +28,30 @@ public class ListInterface {
 		System.out.println("List 1 after adding items in list 2 to list 1 at position 2 : "+ list);
 		
 		System.out.println("Element at position 2 : "+ list.get(2));
+		System.out.println("Index of \"X\" : "+ list.indexOf("X"));
+		
+		list.add("X");
+		System.out.println("Last Index of \"X\" after appending \"X\" to the list : "+ list.lastIndexOf("X"));
+		
+		String s = list.remove(2);
+		System.out.println("List 1 after removing element at position 2: "+ list);
+		System.out.println("Item removed was : "+ s);
+		
+		list.replaceAll(e->e.toLowerCase());
+		System.out.println("List after applying unary operator to replaceAll: "+ list);
+		
+		String oldValue = list.set(1,"New");
+		System.out.println("Old Value "+  oldValue + " replaced with \"New\" at index 1: "+ list);
+		
+		List<String> list3= list.subList(1, 3);
+		System.out.println("Sub list from positions 1 to 3: "+ list3);
+
+
+		//List<String> list3 = List.of("One", "Two"); // Java 9
+		
+		
+
 	}
+
+	
 }
