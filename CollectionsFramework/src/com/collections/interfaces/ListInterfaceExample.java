@@ -1,9 +1,9 @@
-package com.collections;
+package com.collections.interfaces;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListInterface {
+public class ListInterfaceExample {
 	public static void main(String args[]) {
 		//Initializing the ArrayList using add()
 		List <String> list = new ArrayList();	

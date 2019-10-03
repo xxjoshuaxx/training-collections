@@ -1,4 +1,4 @@
-package com.collections;
+package com.collections.interfaces;
 
 import java.util.LinkedList;
 import java.util.Queue;

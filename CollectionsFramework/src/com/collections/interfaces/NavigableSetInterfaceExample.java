@@ -1,11 +1,11 @@
-package com.collections;
+package com.collections.interfaces;
 
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.NavigableSet; 
 
 
-public class NavigableSetDemo {
+public class NavigableSetInterfaceExample {
 	public static void main(String args[]) {
         NavigableSet<String> navigableSet = new TreeSet<>(); 
         navigableSet.add("A"); 

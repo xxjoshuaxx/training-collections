@@ -1,9 +1,9 @@
-package com.collections;
+package com.collections.interfaces;
 
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class SortedSetExample {
+public class SortedSetInterfaceExample {
 	public static void main(String args[]) {
 		SortedSet<String> sortedSet = new TreeSet();
 		sortedSet.add("A");

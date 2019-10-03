@@ -1,4 +1,4 @@
-package com.collections;
+package com.collections.interfaces;
 
 //Demonstrating the methods in the collection interface using the ArrayList Class
 
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.TreeSet;
 
-public class CollectionInterface {
+public class CollectionInterfaceExample {
 	public static void main(String args[]) {
 		//Initializing the ArrayList using add()
 		List <String> list = new ArrayList();	
